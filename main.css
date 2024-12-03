@@ -1,0 +1,250 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto:wght@400&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-image: url("house.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    line-height: 1.6;
+}
+
+
+header {
+    background: linear-gradient(135deg, #1E2A1A, #176223); 
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+header h1 {
+    font-family: 'Lora', serif; 
+    font-size: 4em;
+}
+
+header h3 {
+    font-family: 'Lora', serif; 
+    font-size: 1.7em;
+    font-weight: 700; 
+    padding: 5px;
+}
+
+.financing h4 {
+    font-size: 1.2em;
+    font-weight: 700px;
+}
+
+.policy h4{
+	font-size:1.2em;
+	font-weight: 700px;
+}
+
+
+nav {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+.financing ul li{
+	margin-right: 25px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    font-family: 'Roboto', sans-serif; 
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #F1C40F;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /*not quite sure technically speaking what this is, but I put it in to  allow for the grid to be displayed in a more compact form :)*/
+    grid-template-rows: auto auto;
+    grid-gap: 0px;
+    justify-items: center;
+    background: linear-gradient(135deg, #176223, #1E2A1A);
+    border-radius: 20px;
+    margin: 40px auto;
+    margin-top: 100px;
+    padding: 20px;
+    max-width: 1300px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#goals {
+    grid-column: 2;
+    grid-row: 1;
+    max-width: 100%;
+    padding: 10px;
+}
+
+
+#worker3 {width: 100%;
+    max-width: 500px;
+    height: auto;
+    grid-column:3;
+    grid-row:1;
+}
+
+#worker4 {width: 100%;
+    max-width: 500px;
+    height: auto;
+    grid-column:1;
+    grid-row:1;}
+    
+#worker1 {width: 100%;
+    max-width: 500px;
+    height: auto;
+    grid-column:1;
+    grid-row:1;
+}
+
+#worker2 {width: 100%;
+    max-width: 500px;
+    height: auto;
+    grid-column:3;
+    grid-row:1;
+}
+    
+    
+
+
+.our_history {
+    background: linear-gradient(135deg, #1E2A1A, #176223); 
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 45%;
+}
+
+.why_use_us {
+    background: linear-gradient(135deg, #176223, #1E2A1A); 
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 45%;
+    position: absolute; /*couldn't get it to fit without positioning it as absolute, maybe I did something else wrong I don't know of*/
+    top: 645px;
+    right: 10px;
+}
+
+.our_history, .why_use_us {
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    color: #fff; 
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 40px;
+    font-size: 0.8em;
+}
+
+.financing {
+	background: linear-gradient(135deg, #176223, #1E2A1A);
+	border-radius: 20px;
+	margin: 70px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.policy {
+	background: linear-gradient(135deg, #176223, #1E2A1A);
+	border-radius: 20px;
+	margin: 70px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.team-section {
+    padding: 40px;
+    text-align: center;
+}
+
+
+.employee-card {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C6B2F;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    max-width: 900px;
+}
+
+.employee-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 40%;
+    margin-right: 20px;
+}
+
+.employee-details {
+    text-align: left;
+    color: #fff;
+}
+
+.employee-details h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.employee-details p {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+#footer-image {
+height: 30px;
+width: 30px;
+border-radius: 20px;
+position: absolute;
+left: 640px;
+top:1575px;
+}
